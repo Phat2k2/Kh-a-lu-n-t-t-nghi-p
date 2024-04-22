@@ -1,7 +1,5 @@
 import numpy as np
 from numpy import linalg as LA
-from numpy.linalg import inv
-
 import time
 import math
 
@@ -14,7 +12,7 @@ A = np.array([[0,0],[0,1]])
 p = 1
 # vecto b
 b = np.array([0,1])
-# ma tran don vi trong R^n+
+# ma tran don vi trong R^n
 I = np.identity(n)
 
 # cong thuc tim hinh chieu
